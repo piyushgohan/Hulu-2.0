@@ -22,7 +22,7 @@ function Header() {
                <HeaderItems title="account"  Icon={UserIcon} />
            </div>
            <Image src="http://links.papareact.com/ua6" 
-           height={100} width={200} className="object-contain cursor-pointer" />
+           height={100} width={200} className="object-contain cursor-pointer" alt="logo" />
        </header>
     )
 }
