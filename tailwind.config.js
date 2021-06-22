@@ -6,7 +6,9 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['responsive', 'motion-safe', 'motion-reduce'],
+    },
   },
   plugins: [require('tailwind-scrollbar-hide')],
 }
